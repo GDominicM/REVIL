@@ -1,0 +1,35 @@
+.productBox {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 300px; /* Adjust the width as needed */
+  border-radius: 10px; /* Adding rounded corners */
+
+  .productImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px; /* If you want the image itself to have rounded corners */
+    /* Add more image-specific styles if necessary */
+  }
+
+  .productInfo {
+    .productName {
+      font-weight: bold;
+      /* Other styles for product name */
+    }
+
+    .ratings {
+      color: #ffa500; /* Example color for ratings */
+      font-size: 0.9em;
+      /* Other styles for ratings */
+    }
+
+    .price {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+      /* Other styles for price */
+    }
+  }
+}
